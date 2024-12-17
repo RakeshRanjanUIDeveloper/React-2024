@@ -11,6 +11,11 @@ import Counter from './Counter';
 import UserDetails from './UserDetails';
 import ToggleButton from './ToggleButton';
 import Login from './Login';
+import ItemList from '../BasicEventHandling/ItemList';
+import InputForm from '../BasicEventHandling/InputForm';
+import ArrayOfString from '../BasicEventHandling/ArrayOfString';
+import TodoList from '../BasicEventHandling/TodoList';
+import FilterProduct from '../BasicEventHandling/FilterProduct';
 
 const PracticeJSX = () => {
     const name = "Rakesh Ranjan"
@@ -43,13 +48,17 @@ const PracticeJSX = () => {
         <Button label="Button Three" />
         <Profile />
         <Card />
-        <Greeting name="Rakesh" number="4" />
+        <Greeting name="Rakesh" number='4' />
         <ProductList products={products} />
         <Counter />
         <UserDetails />
         <ToggleButton />
         <Login />
-
+        <ItemList />
+        <InputForm />
+        <ArrayOfString />
+        <TodoList />
+        <FilterProduct />
         {/* https://chatgpt.com/c/67605ed5-6be8-800b-bf73-f94ff8b86b1e */}
     </div>
   )
