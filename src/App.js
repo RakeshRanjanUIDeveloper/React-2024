@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProfileCard from "./components/ProfileCard";
 import AnimalShow from "./components/AnimalShow";
 import './App.css'
+import PracticeJSX from "./components/JSX/PracticeJSX";
 
 //Create a component
 function getRandomAnimals(){
@@ -26,9 +27,13 @@ function App(){
             <ProfileCard title="Title Three" handle="Handle Three" description="Description Three" />
         </div> */
         <div className="app">
-            <button onClick={handleClick}>Add Animal</button>
-            <div className="animal-list">{renderAnimals}</div>
+          { /*  <button onClick={handleClick}>Add Animal</button>
+            <div className="animal-list">{renderAnimals}</div> */}
+
+            <PracticeJSX />
         </div>
+
+
     )
 }
 
